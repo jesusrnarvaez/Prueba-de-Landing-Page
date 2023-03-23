@@ -1,10 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap');
+/* https://colorhunt.co/palette/2f5d625e8b7ea7c4bcdfeeea */
 *{
     font-family: 'Source Code Pro', monospace;
     margin: 0;
 }
 body{
-    background-color: red;
+    background-color: #2F5D62;
 }
 header{
     color: white;
@@ -12,15 +13,21 @@ header{
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    background-color: rgb(63, 57, 57);
+    background-color: #A7C4BC;
     padding-top: 5px;
     padding-bottom: 5px;
     padding-left: 10vw;
     padding-right: 10vw;
 }
+h2 i{
+    margin-right: 12px;
+}
 a{
     color: white;
     text-decoration: none;
+}
+a i{
+    margin-right: 5px;
 }
 nav{
     display: flex;
@@ -42,15 +49,16 @@ nav{
     animation-duration: 2000ms;
     width: 400px;
     height: 400px;
-    background-color: darkolivegreen;
-    border: 5px gold solid;
+    background-color: #5E8B7E;
+    border: 5px #DFEEEA;
     border-radius: 10px;
     margin: 30px;
     padding: 15px;
+    color: white;
 }
 .caja:hover{
     transition: 500ms ease-in-out;
-    background-color: blue;
+    background-color: #A7C4BC;
     /* transform: scale(1.1); */
     transform: rotate(-3deg);
     filter: grayscale(0.25);
